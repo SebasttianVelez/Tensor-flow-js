@@ -1,4 +1,8 @@
+
 async function learnLinear(){
+
+  
+
 
   //Creacion de una red neuronal con un unico nodo
   const model = tf.sequential();
@@ -24,9 +28,20 @@ async function learnLinear(){
 
   //epochs son el numero de loops, o numero de iteraciones sobre todos los datos de entrenamiento.
   
+  var  numero = document.getElementById('n').value;
 
-  //impresion del tensor con el metodo predict
-  document.getElementById('output_field').innerText =
-   model.predict(tf.tensor2d([24], [1, 1]));
+  if(numero>1){
+      output_field.style.display = "block";
+
+      //impresion del tensor con el metodo predict
+      result = model.predict(tf.tensor2d([numero], [1, 1]));
+      document.getElementById('output_field').innerText = result;
+  }
+  else{
+    output_field.style.display = "none";
+  }
+
+
  }
  learnLinear();
+

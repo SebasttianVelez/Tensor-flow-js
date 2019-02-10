@@ -4,9 +4,20 @@
  <!-- Obtener la ultima versión en at https://github.com/tensorflow/tfjs -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.12.4"></script>
 
-  <script type="text/javascript" src="js/introduction.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
  </head>
  <body>
-   <div id="output_field"></div>
+    
+  <nav class="head">Introduction to TensorFlow</nav>
+  
+    <div style="text-align:center;">
+      
+    <input type="number" id="n" />
+    </div>
+    <button onclick="learnLinear()" class="button button1">Calcular</button>
+    <div id="output_field"></div>
+ 
+    <script type="text/javascript" src="js/introduction.js"></script>
  </body>
 <html>
