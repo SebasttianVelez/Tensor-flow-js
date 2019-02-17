@@ -31,4 +31,5 @@ Pegar en nuestro index.html
 Esta aplicación utiliza componentes Open Source. Puedes encontrar el código fuente de los proyectos de código abierto a continuación. Reconocemos y estamos agradecidos a estos desarrolladores por sus contribuciones a código abierto.
 
 Librería tensorflow.tfjs: https://github.com/tensorflow/tfjs
+
 Pagina oficial de tensorflow.js: https://js.tensorflow.org/
